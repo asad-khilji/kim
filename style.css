@@ -58,4 +58,45 @@ input {
     width: 40%;
 }
 
+@media screen and (max-width: 768px) {
+    header {
+        position: absolute;
+        width: 500px;
+        background-position: left;
+    }
+    
+    nav {
+        display: none;
+    }
+    .contact-form {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 840px;
+        margin-left: -60px;
+        background-color: bisque;
+        width: 500px;
+    }
+
+    .contact-form h1 {
+        margin-right: -100px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .contact-form p {
+        margin-left: -10px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+   
+  }
 
