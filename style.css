@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+header {
+    background-image: url('./images/cover.jpg');
+    background-size: cover;
+    padding: 60px;
+    height: 900px;
+    background-position: center;
+}
+
+.contact-form {
+    padding: 20px;
+    text-align: right;
+    margin-top: 200px;
+    width: 1300px;
+}
+
+.contact-form h1 {
+    margin-right: 325px;
+}
+
+.contact-form p {
+    text-align: left;
+    margin-left: 700px;
+}
+
+.large {
+    font-size: 23px;
+}
+
+input {
+    margin-right: 55px;
+    padding: 10px;
+    width: 40%;
+    border: none;
+}
+
+.btn {
+    margin-right: 55px;
+    margin-top: 25px;
+    padding: 20px;
+    background-color: rgb(214, 156, 49);
+    border: none;
+    width: 40%;
+}
+
+
