@@ -86,7 +86,25 @@ input {
     margin-top: 50px;
 }
 
+.col-4 {
+    flex-basis: 20%;
+}
+
+.col-4 img {
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
 .short-des {
+    font-size: 23px;
+}
+
+.col-4 p {
+    margin-top: 150px;
     font-size: 23px;
 }
 
